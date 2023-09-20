@@ -4,47 +4,43 @@
     <link href="style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="icon" href="/assets/favicone.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-      <h1>My CV</h1>
-      <nav class="nav">
-        <ul class="nav-list">
-            <li class="nav-item">Contacts</li>
-            <li class="nav-item">Bio</li>
-            <li class="nav-item">Skills</li>
-            <li class="nav-item">Code</li>
-            <li class="nav-item">Work</li>
-            <li class="nav-item">Courses</li>
-            <li class="nav-item">English</li>
-        </ul>
-      </nav>  
+      <div class="header-line">
+        <h1>Labushkin Mikhail</h1>
+        <h3>RSSchool student</h3>
+    </div> 
     </header>
-    <main>
+    <main class="container">
+      <div class="my-photo">
+        <img src="/assets/avatar.jpg" class="image" alt="avatar">
+      </div>
       <div class="line">
-        <div class="line1-item">
           <h2><img src="/assets/Contacts.png" alt="Contacts">Contacts</h2>
           <br><img src="/assets/Discord.png" alt="Discord"> jol_ly
           <br><img src="/assets/Telegram.png" alt="Telegram"> @Jolly536
-          <br><img src="/assets/VK.png"> @labushkinm
+          <br><img src="/assets/VK.png" alt="VK"> @labushkinm
           <br><img src="/assets/Mail.png" alt="Mail"> labuskinmm@gmail.com
           <br><img src="/assets/Github.png" alt="Github"> Jolly536
           <br><img src="/assets/Geo.png" alt="Geo">Sarov, Russia
         </div>
-        <div class="line1-item">
-          <h2><img src="/assets/Biography.png" alt="Biography">Biography</h2>
+        <div class="line2-item">
+          <h2><img src="/assets/Biography.png" alt="&lt;Biography&gt;">Biography</h2>
           <br>I'm 16 years old and I'm very motivated to learn frontend as it will determine my future in life. 
           <br>I have no work experience, I don't know the strengths and weaknesses yet.
         </div>
       </div>
-      <div class="line">
-        <div class="line1-item">
+      <div class="line2">
+        <div class="line2-item">
           <h2><img src="/assets/Skills.png" alt="Skills">Skills</h2>
           Learning the basics of CSS and JS.
         </div>
-        <div class="line1-item">
+        <div class="line3-item">
           <h2><img src="/assets/Code.png" alt="Code">Code</h2>
           <pre>
 <code>function multiply(a, b){
@@ -66,7 +62,8 @@
       </div>
       <div class="line-4">
         <h2><img src="/assets/Languages.png" alt="Languages">English</h2>
-        A2: Pre-Intermediate
+        Russian - native speaker
+        <br>A2: Pre-Intermediate
       </div>
     </main>
 </body>

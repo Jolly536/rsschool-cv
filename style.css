@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #363636;
+    margin: 0 auto;
+    width: 850px;
+    box-shadow: 9px 5px 5px rgba(0,0,0, 0.2);
+
+}
+main {
+    display: flex;
+    margin-top: 3%;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+.image {
+    width: 285px;
+    height: 190px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.15);
+}
+.my-photo {
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.about-me{
+    background-color: #2d2c33;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color: white;
+}
+.about-me-more {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1e8e4;
+    width: 70%;
+}
+h1 {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 250%;
+}
+.info {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000000;
+}
+.icon {
+    width: 22px;
+    height: 22px;
+}
+.contacts {
+    font-size: 20px;
+    padding: 11px;
+    border: 1px solid #fecb00 ;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.me {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ffffff;
+    width: 250px;
+    margin-bottom: 10px;
+}
+a.cont {
+    color: #fecb00;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover {
+    background-size: 100% 1.5px;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #fecb00;
+}
+.about-me {
+    padding: 14px;
+}
+.education-block, .skills-text {
+    color: #fecb00;
+}
+
+.year {
+    font-size: 150%;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 5px;
+}
+
+.skills {
+    font-size: 23px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #fecb00;
+    margin-bottom: 20px;
+}
+.education {
+    font-size: 23px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+.program-language {
+    font-size: 33px;
+    margin: 5px 0px 5px 0px;
+    color:#ffffff
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+}
+.education-block {
+    display: flex;
+    flex-direction: column;
+}
+.c {
+    margin: 5px 0px 10px 0px;
+}
+.js {
+    margin: 5px 0px 10px 0px;
+} 
+.name {
+    margin-bottom: 30px;
+}
+.orange {
+    color:#fecb00
+}
+.more-info h2 {
+    color: #2d2c32;
+    padding-bottom: 2px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #000000;   
+}
+.more-info {
+    font-size: 140%;
+}
+.bio-header {
+    width: 158px;
+}
+.code-header {
+    width: 91px;
+}
+.biography {
+    margin-bottom: 30px;
+}
+.code {
+    display: flex;
+    flex-direction: column;
+}
+.code-more {
+    color: #f1e8e4;
+    background-color: #1d1e22;
+    border: 1px solid #1d1e22;
+    border-radius: 5px;
+    width: 600x;
+    margin-bottom: 40px;
+}
+.yellow {
+    color: #ffa600;
+}
+.blue {
+    color: #748baa;
+}
+.work-header  {
+    width: 92px;
+}
+.work  {
+    margin-bottom: 40px
+}
+.languages-header  {
+    width: 120px;
+}
+footer {
+    background-color: #cdcdcd;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.rs {
+    width: 245px;
+    height: 68,5px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.this-year {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-right: 30px;
+}
+.icons {
+    width: 130px;
+    margin-top: 40px;
+}
+a.git {
+    color: #000000;
+}
+.git:hover {
+    color: #ffa600;
+}

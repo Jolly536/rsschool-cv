@@ -6,66 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="icon" href="/assets/favicone.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">  
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/font/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/24073c4b65.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-      <div class="header-line">
-        <h1>Labushkin Mikhail</h1>
-        <h3>RSSchool student</h3>
-    </div> 
-    </header>
-    <main class="container">
-      <div class="my-photo">
-        <img src="/assets/avatar.jpg" class="image" alt="avatar">
-      </div>
+    <main class="container"> 
       <div class="about-me">
-        <div class="Contacts">
-            <h2><img src="/assets/Contacts.png" alt="Contacts">Contacts</h2>
-            <br><img src="/assets/Discord.png" alt="Discord"> jol_ly
-            <br><img src="/assets/Telegram.png" alt="Telegram"> @Jolly536
-            <br><img src="/assets/VK.png" alt="VK"> @labushkinm
-            <br><img src="/assets/Mail.png" alt="Mail"> labuskinmm@gmail.com
-            <br><img src="/assets/Github.png" alt="Github"> Jolly536
-            <br><img src="/assets/Geo.png" alt="Geo">Sarov, Russia
+        <div class="my-photo">
+          <img src="/assets/avatar.jpg" class="image" alt="avatar">
+        </div>
+        <div class="contacts">
+            <h2 class="about-title">&lt;Contacts&gt;</h2>
+            <ul>
+              <li><i class="fa-brands fa-discord fa-beat" style="color: #5462eb;"></i><a>jol_ly</a> </li>
+              <li><i class="fa-brands fa-telegram" style="color: #28a9ea;"></i><a href="https://t.me/Jolly536"> @Jolly536</a></li>
+              <li><i class="fa-brands fa-vk fa-bounce" style="color: #1262c9;"></i><a href="https://vk.com/labushkinm"> @labushkinm</li></a>
+              <li><i class="fa-solid fa-envelope" style="color: #02040a;"></i><a>labuskinmm@gmail.com</a></li>
+              <li><i class="fa-brands fa-github" style="color: #ffffff;"></i><a href="https://github.com/Jolly536"> Jolly536</a></li>
+              <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i><a>Sarov, Russia</a></li>
+            </ul>
           </div>
-        <div class="Skills">
-          <h2><img src="/assets/Skills.png" alt="Skills">Skills</h2>
-          Learning the basics of CSS and JS.
+        <div class="skills">
+          <h2 class="about-title">&lt;Skills&gt;</h2>
+          <div class="skills-text">Learning the basics of CSS and JS.</div>
+        </div>
+        <div class="education">
+          <h2 class="about-title">&lt;Courses&gt;</h2>
+          <div class="education-block">
+              <h3 class="year">2022</h3>
+              <div class="c"><a class="program-language"> C++</a>
+              <h5 class="education-more">Learning C++ at courses in my city</h5>
+          </div>
+          <div class="js">
+              <a class="program-language">JS, HTML and CSS</a>
+              <h5 class="education-more">Rolling-Scopes School</h5>
+              <h5 class="education-more">Code-Basics</h5>
+          </div>
+          </div>  
         </div>
       </div>
-    <div class="about-me-more">
-      <div class="Biography">
-          <h2><img src="/assets/Biography.png" alt="&lt;Biography&gt;">Biography</h2>
-          <br>I'm 16 years old and I'm very motivated to learn frontend as it will determine my future in life. 
-          <br>I have no work experience, I don't know the strengths and weaknesses yet.
-      </div>
-      <div class="Code">
-          <h2><img src="/assets/Code.png" alt="Code">Code</h2>
-          <pre>
+      <div class="about-me-more">
+        <div class="name">
+            <h1>Labushkin Mikhail</h1>
+            <h4 class="info">Student Rolling-Scopes School</h4>
+        </div>
+        <div class="more-info">
+          <div class="biography">
+              <h2>&lt;Biography&gt;</h2>
+              <br>I'm 16 years old and I'm very motivated to learn frontend as it will determine my future in life. 
+              <br>I have no work experience, I don't know the strengths and weaknesses yet.
+          </div>
+          <div class="code">
+              <h2><img src="/assets/Code.png" alt="Code">Code</h2>
+              <pre>
 <code>function multiply(a, b){
   return a * b;
 }
 </code>
-          </pre>
-      </div>
-    </div>
-      <div class="line">
-        <div class="line1-item">
-          <h2><img src="/assets/Work.png" alt="Work">Work</h2>
-          I do not have work experience.
+              </pre>
+          </div>
+          <div class="Work">
+            <h2><img src="/assets/Work.png" alt="Work">Work</h2>
+            I do not have work experience.
+          </div>
+          <div class="Languages">
+            <h2><img src="/assets/Languages.png" alt="Languages">English</h2>
+            Russian - native speaker
+            <br>A2: Pre-Intermediate
+          </div>
         </div>
-        <div class="line1-item">
-          <h2><img src="/assets/Education.png" alt="Education">Courses</h2>
-          Taking a frontend course from RS School.
-        </div>
-      </div>
-      <div class="line-4">
-        <h2><img src="/assets/Languages.png" alt="Languages">English</h2>
-        Russian - native speaker
-        <br>A2: Pre-Intermediate
       </div>
     </main>
+    <footer>
+      rsschool
+    </footer>
 </body>
 </html>

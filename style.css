@@ -9,7 +9,7 @@
 body {
     background-color: #363636;
     margin: 0 auto;
-    width: 1000px;
+    width: 850px;
     box-shadow: 9px 5px 5px rgba(0,0,0, 0.2);
 
 }
@@ -26,13 +26,13 @@ main {
 }
 .my-photo {
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .about-me{
     background-color: #2d2c33;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     color: white;
 }
 .about-me-more {
@@ -63,6 +63,7 @@ h1 {
     border: 1px solid #fecb00 ;
     border-radius: 15px;
     margin-bottom: 20px;
+    margin-top: 5px;
 }
 .me {
     padding-bottom: 18px;
@@ -110,6 +111,7 @@ li {
 .education {
     font-size: 23px;
     margin-top: 10px;
+    border-bottom: 1px solid #ffffff;
 }
 .program-language {
     font-size: 33px;
@@ -137,4 +139,52 @@ footer {
 }
 .name {
     margin-bottom: 30px;
+}
+.orange {
+    color:#fecb00
+}
+.more-info h2 {
+    color: #2d2c32;
+    padding-bottom: 2px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #000000;   
+}
+.more-info {
+    font-size: 140%;
+}
+.bio-header {
+    width: 158px;
+}
+.code-header {
+    width: 91px;
+}
+.biography {
+    margin-bottom: 30px;
+}
+.code {
+    display: flex;
+    flex-direction: column;
+}
+.code-more {
+    color: #f1e8e4;
+    background-color: #1d1e22;
+    border: 1px solid #1d1e22;
+    border-radius: 5px;
+    width: 600x;
+    margin-bottom: 40px;
+}
+.yellow {
+    color: #ffa600;
+}
+.blue {
+    color: #748baa;
+}
+.work-header  {
+    width: 92px;
+}
+.work  {
+    margin-bottom: 40px
+}
+.languages-header  {
+    width: 120px;
 }

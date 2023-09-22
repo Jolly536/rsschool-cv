@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #363636;
+    margin: 0 auto;
+    width: 1000px;
+    box-shadow: 9px 5px 5px rgba(0,0,0, 0.2);
+}
+main {
+    display: flex;
+    margin-top: 3%;
+    border: 1px solid #000000;
+}
+.image {
+    width: 270px;
+    height: 180px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.15);
+}
+.my-photo {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.about-me{
+    background-color: #2d2c33;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+}
+.about-me-more {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee2dc;
+    width: 70%;
+}
+h1 {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+h4 {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000000;
+}
+.icon {
+    width: 22px;
+    height: 22px;
+}
+.contacts {
+    margin: 11.5px; 
+    font-size: 20px;
+}
+.me {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ffffff;
+    width: 250px;
+    margin-bottom: 10px;
+}
+a {
+    color: #fecb00;
+}
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover {
+    background-size: 100% 1.5px;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #fecb00;
+}
